@@ -11,6 +11,12 @@
 		8F19DFDB2910E0AB006FAED6 /* ios_ui_components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F19DFD02910E0AB006FAED6 /* ios_ui_components.framework */; };
 		8F19DFE02910E0AB006FAED6 /* ios_ui_componentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F19DFDF2910E0AB006FAED6 /* ios_ui_componentsTests.swift */; };
 		8F19DFE12910E0AB006FAED6 /* ios_ui_components.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F19DFD32910E0AB006FAED6 /* ios_ui_components.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F9B4ADC2910F76600EA6523 /* TwoLineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9B4ADB2910F76600EA6523 /* TwoLineButton.swift */; };
+		8FD2D0222919502F00DD7CA9 /* ConfirmAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2D0212919502F00DD7CA9 /* ConfirmAlert.swift */; };
+		8FD2D0242919885C00DD7CA9 /* InputAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2D0232919885C00DD7CA9 /* InputAlert.swift */; };
+		8FEF38FD2913B325001AAD61 /* LoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEF38FC2913B325001AAD61 /* LoadingButton.swift */; };
+		8FEF38FF2914EE14001AAD61 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEF38FE2914EE14001AAD61 /* IconButton.swift */; };
+		8FEF390229161CB0001AAD61 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEF390129161CB0001AAD61 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,12 @@
 		8F19DFD42910E0AB006FAED6 /* ios_ui_components.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ios_ui_components.docc; sourceTree = "<group>"; };
 		8F19DFDA2910E0AB006FAED6 /* ios-ui-componentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-ui-componentsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F19DFDF2910E0AB006FAED6 /* ios_ui_componentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_ui_componentsTests.swift; sourceTree = "<group>"; };
+		8F9B4ADB2910F76600EA6523 /* TwoLineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLineButton.swift; sourceTree = "<group>"; };
+		8FD2D0212919502F00DD7CA9 /* ConfirmAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmAlert.swift; sourceTree = "<group>"; };
+		8FD2D0232919885C00DD7CA9 /* InputAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAlert.swift; sourceTree = "<group>"; };
+		8FEF38FC2913B325001AAD61 /* LoadingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingButton.swift; sourceTree = "<group>"; };
+		8FEF38FE2914EE14001AAD61 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		8FEF390129161CB0001AAD61 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +85,12 @@
 			children = (
 				8F19DFD32910E0AB006FAED6 /* ios_ui_components.h */,
 				8F19DFD42910E0AB006FAED6 /* ios_ui_components.docc */,
+				8F9B4ADB2910F76600EA6523 /* TwoLineButton.swift */,
+				8FEF38FC2913B325001AAD61 /* LoadingButton.swift */,
+				8FEF38FE2914EE14001AAD61 /* IconButton.swift */,
+				8FEF390129161CB0001AAD61 /* Alert.swift */,
+				8FD2D0212919502F00DD7CA9 /* ConfirmAlert.swift */,
+				8FD2D0232919885C00DD7CA9 /* InputAlert.swift */,
 			);
 			path = "ios-ui-components";
 			sourceTree = "<group>";
@@ -153,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8F19DFCA2910E0AB006FAED6 /* Build configuration list for PBXProject "ios-ui-components" */;
+			buildConfigurationList = 8F19DFCA2910E0AB006FAED6 /* Build configuration list for PBXProject "iOS_UI_Components" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -194,7 +212,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FEF38FF2914EE14001AAD61 /* IconButton.swift in Sources */,
+				8FD2D0222919502F00DD7CA9 /* ConfirmAlert.swift in Sources */,
 				8F19DFD52910E0AB006FAED6 /* ios_ui_components.docc in Sources */,
+				8FEF390229161CB0001AAD61 /* Alert.swift in Sources */,
+				8FD2D0242919885C00DD7CA9 /* InputAlert.swift in Sources */,
+				8FEF38FD2913B325001AAD61 /* LoadingButton.swift in Sources */,
+				8F9B4ADC2910F76600EA6523 /* TwoLineButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +420,7 @@
 		8F19DFE82910E0AB006FAED6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5Q4F9CKWYM;
@@ -412,6 +437,7 @@
 		8F19DFE92910E0AB006FAED6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5Q4F9CKWYM;
@@ -428,7 +454,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8F19DFCA2910E0AB006FAED6 /* Build configuration list for PBXProject "ios-ui-components" */ = {
+		8F19DFCA2910E0AB006FAED6 /* Build configuration list for PBXProject "iOS_UI_Components" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F19DFE22910E0AB006FAED6 /* Debug */,
