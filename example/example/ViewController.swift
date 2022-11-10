@@ -66,6 +66,16 @@ class ViewController: UIViewController {
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
+    
+    let checkBox: CheckBox = {
+        let checkBox = CheckBox()
+        checkBox.config(data: CheckBoxData(isChecked: true, labelRequired: true, labelTitle: "Checkbox"), completion: {
+            state in
+            print(state)
+        })
+        checkBox.translatesAutoresizingMaskIntoConstraints = false
+        return checkBox
+    }()
 
     private let alert = Alert()
     
@@ -84,6 +94,7 @@ class ViewController: UIViewController {
         scrollView.addSubview(showAlertButton)
         scrollView.addSubview(showConfirmAlertButton)
         scrollView.addSubview(showInputAlertButton)
+        scrollView.addSubview(checkBox)
         
         scrollView.frame = view.bounds
         scrollView.backgroundColor = .lightGray
@@ -166,6 +177,11 @@ class ViewController: UIViewController {
             showInputAlertButton.heightAnchor.constraint(equalToConstant: 50),
             showInputAlertButton.widthAnchor.constraint(equalToConstant: 300),
             showInputAlertButton.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor),
+            
+            checkBox.topAnchor.constraint(equalTo: showInputAlertButton.bottomAnchor, constant: 16),
+            checkBox.heightAnchor.constraint(equalToConstant: 40),
+            checkBox.widthAnchor.constraint(equalToConstant: 300),
+            checkBox.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor),
             
         ])
         

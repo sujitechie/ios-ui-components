@@ -11,6 +11,7 @@
 		8F19DFDB2910E0AB006FAED6 /* ios_ui_components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F19DFD02910E0AB006FAED6 /* ios_ui_components.framework */; };
 		8F19DFE02910E0AB006FAED6 /* ios_ui_componentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F19DFDF2910E0AB006FAED6 /* ios_ui_componentsTests.swift */; };
 		8F19DFE12910E0AB006FAED6 /* ios_ui_components.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F19DFD32910E0AB006FAED6 /* ios_ui_components.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F2D7DE3291AC0B500CE3DEC /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D7DE2291AC0B500CE3DEC /* CheckBox.swift */; };
 		8F9B4ADC2910F76600EA6523 /* TwoLineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9B4ADB2910F76600EA6523 /* TwoLineButton.swift */; };
 		8FD2D0222919502F00DD7CA9 /* ConfirmAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2D0212919502F00DD7CA9 /* ConfirmAlert.swift */; };
 		8FD2D0242919885C00DD7CA9 /* InputAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD2D0232919885C00DD7CA9 /* InputAlert.swift */; };
@@ -35,6 +36,7 @@
 		8F19DFD42910E0AB006FAED6 /* ios_ui_components.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ios_ui_components.docc; sourceTree = "<group>"; };
 		8F19DFDA2910E0AB006FAED6 /* ios-ui-componentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-ui-componentsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F19DFDF2910E0AB006FAED6 /* ios_ui_componentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_ui_componentsTests.swift; sourceTree = "<group>"; };
+		8F2D7DE2291AC0B500CE3DEC /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		8F9B4ADB2910F76600EA6523 /* TwoLineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLineButton.swift; sourceTree = "<group>"; };
 		8FD2D0212919502F00DD7CA9 /* ConfirmAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmAlert.swift; sourceTree = "<group>"; };
 		8FD2D0232919885C00DD7CA9 /* InputAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAlert.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				8FEF390129161CB0001AAD61 /* Alert.swift */,
 				8FD2D0212919502F00DD7CA9 /* ConfirmAlert.swift */,
 				8FD2D0232919885C00DD7CA9 /* InputAlert.swift */,
+				8F2D7DE2291AC0B500CE3DEC /* CheckBox.swift */,
 			);
 			path = "ios-ui-components";
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F2D7DE3291AC0B500CE3DEC /* CheckBox.swift in Sources */,
 				8FEF38FF2914EE14001AAD61 /* IconButton.swift in Sources */,
 				8FD2D0222919502F00DD7CA9 /* ConfirmAlert.swift in Sources */,
 				8F19DFD52910E0AB006FAED6 /* ios_ui_components.docc in Sources */,
